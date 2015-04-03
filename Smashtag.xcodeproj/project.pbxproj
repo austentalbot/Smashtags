@@ -17,6 +17,7 @@
 		195F1ABF1ACD9B640048294D /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F1ABB1ACD9B640048294D /* Tweet.swift */; };
 		195F1AC01ACD9B640048294D /* TwitterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F1ABC1ACD9B640048294D /* TwitterRequest.swift */; };
 		195F1AC11ACD9B640048294D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F1ABD1ACD9B640048294D /* User.swift */; };
+		19E9B9B11ACEE9F00091CEA3 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19E9B9B01ACEE9F00091CEA3 /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		195F1ABB1ACD9B640048294D /* Tweet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		195F1ABC1ACD9B640048294D /* TwitterRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterRequest.swift; sourceTree = "<group>"; };
 		195F1ABD1ACD9B640048294D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		19E9B9B01ACEE9F00091CEA3 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				195F1A9B1ACD99290048294D /* Main.storyboard */,
+				19E9B9B01ACEE9F00091CEA3 /* TweetTableViewCell.swift */,
 				195F1AB71ACD9A0E0048294D /* TweetTableViewController.swift */,
 				195F1AB91ACD9B640048294D /* Twitter */,
 				195F1A951ACD99290048294D /* Supporting Files */,
@@ -239,6 +242,7 @@
 				195F1AB81ACD9A0E0048294D /* TweetTableViewController.swift in Sources */,
 				195F1ABE1ACD9B640048294D /* MediaItem.swift in Sources */,
 				195F1ABF1ACD9B640048294D /* Tweet.swift in Sources */,
+				19E9B9B11ACEE9F00091CEA3 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

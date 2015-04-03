@@ -41,7 +41,6 @@ class TweetTableViewController: UITableViewController, UITextFieldDelegate {
         refresh()
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
-
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     } 
@@ -75,11 +74,11 @@ class TweetTableViewController: UITableViewController, UITextFieldDelegate {
         static let CellReuseIdentifier = "Tweet"
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier(Storyboard.CellReuseIdentifier, forIndexPath: indexPath) as UITableViewCell
-        let tweet = tweets[indexPath.section][indexPath.row]
-        cell.textLabel?.text = tweet.text
-        cell.detailTextLabel?.text = tweet.user.name
-        
+        let cell = tableView.dequeueReusableCellWithIdentifier(Storyboard.CellReuseIdentifier, forIndexPath: indexPath) as TweetTableViewCell
+//        let tweet = tweets[indexPath.section][indexPath.row]
+//        cell.textLabel?.text = tweet.text
+//        cell.detailTextLabel?.text = tweet.user.name
+        cell.tweet = tweets[indexPath.section][indexPath.row]
         return cell
     }
 
